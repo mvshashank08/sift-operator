@@ -18,3 +18,12 @@ I compared my implementation with *OpenCV's implementation of the SIFT operator*
 * `SIFT-Paper.pdf` - The original SIFT paper from David Lowe.
 * `images/` - The directory that has test images to run the algorithm on.
 * `tfeat_master/` -  [tfeat](https://github.com/vbalnt/tfeat) repo directly downloaded
+
+## Results
+Keypoints detected across multiple octaves
+
+![Keypoints across multiple octaves](results/kp_octaves.png)
+
+Feature Matching with custom SIFT descriptors
+
+![Feature Matching](results/feat_match.png)
